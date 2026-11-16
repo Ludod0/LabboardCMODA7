@@ -16,7 +16,6 @@ The PCB has been manufactured, assembled, and tested. Most peripherals are opera
 
 **Known issues:**
 - All eight discrete LEDs are currently non-functional. Incorrect LED polarity during assembly is the suspected cause.
-- The segment E current-limiting resistor is missing from the current prototype, leaving that segment unavailable.
 - Two expansion header signals have unconventional routing assignments that will be corrected in V2.
 
 ## Features
@@ -109,10 +108,9 @@ The following table documents the **Cmod A7 physical PIO assignments** used by L
 - **Hardware description language:** VHDL
 - **FPGA development:** AMD Vivado
 - **Digital logic simulation:** Digital
-
+- **Chip to use for Vivado projects:** xc7a35tcpg236-1
 ## Planned Improvements
 - [ ] Develop and validate reusable VHDL input-debouncing modules.
-- [ ] Finalize the reusable four-digit display controller.
 - [ ] Improve expansion connector routing in LabBoard V2.
 - [ ] Document hardware tests and add demonstration photographs.
 
